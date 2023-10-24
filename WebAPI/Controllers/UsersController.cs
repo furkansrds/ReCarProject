@@ -19,6 +19,7 @@ namespace WebAPI.Controllers
         {
             _userService = userService;
         }
+
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
@@ -27,10 +28,9 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            else
-            {
+            
                 return BadRequest(result);
-            }
+            
         }
         [HttpPost("add")]
         public IActionResult Add(User user)
