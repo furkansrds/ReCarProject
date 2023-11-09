@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Castle.DynamicProxy;
 using Microsoft.Extensions.DependencyInjection;
-using Core.Utilities.Extensions;
+using Core.Extensions;
 using Business.Constants;
 using Core.Utilities.Security.IOC;
 
