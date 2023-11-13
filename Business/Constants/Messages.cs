@@ -52,5 +52,8 @@ namespace Business.Constants
         public static string SuccessfulLogin = "Başarılı giriş";
         public static string UserAlreadyExists = "Kullanıcı Mevcut";
         public static string AccessTokenCreated = "Token Oluşturuldu.";
+        public static string CarNameAlreadyExists = "Araç Adı Zaten Mevcut.";
+        public static string CarCountOfBrandError = "Araç Marka Sayısı Hatası.";
+        internal static string BrandLimitExceded = "Marka Limiti Aşıldı.";
     }
 }

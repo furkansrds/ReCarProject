@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Utilities.Security.IOC
+namespace Core.Utilities.Security.IoC
 {
     public static class ServiceTool
     {

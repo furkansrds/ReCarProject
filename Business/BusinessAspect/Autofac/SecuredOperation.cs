@@ -1,4 +1,5 @@
 ﻿using Core.Utilities.Interceptors;
+using Core.Utilities.Security.IoC;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -7,9 +8,8 @@ using Castle.DynamicProxy;
 using Microsoft.Extensions.DependencyInjection;
 using Core.Extensions;
 using Business.Constants;
-using Core.Utilities.Security.IOC;
 
-namespace Business.BusinessAspect.Autofac
+namespace Business.BusinessAspects.Autofac
 {
     public class SecuredOperation : MethodInterception
     {
